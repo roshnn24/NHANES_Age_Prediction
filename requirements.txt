@@ -2,4 +2,4 @@ streamlit==1.25.0
 setuptools==69.0.3
 numpy
 joblib
-tensorflow=
+tensorflow
