@@ -37,5 +37,6 @@ if st.button('Predict Age Group'):
     predicted_age_group = label_encoder.inverse_transform(predicted_class)
 
     # Display the prediction
-    st.subheader(f'Predicted Age Group: {predicted_age_group[0]}')
+    st.subheader(f'Predicted Age Group: \n')
+    st.write(predicted_age_group[0])
 
