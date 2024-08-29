@@ -9,7 +9,7 @@ scaler = joblib.load("final_scaler.pkl")
 label_encoder = joblib.load("final_label_encoder.pkl")
 
 # Define the features
-features = ['RIAGENDR', 'PAQ605', 'BMXBMI', 'LBXGLU', 'DIQ010', 'LBXGLT', 'LBXIN']
+features = ['RIAGENDR (Gender)', 'PAQ605 (Physical Activity Level)', 'BMXBMI (Body Mass Index)', 'LBXGLU (Blood Glucose Level)', 'DIQ010 (Diabetes Status)', 'LBXGLT (Glutathione Level)', 'LBXIN (Insulin Level)']
 
 # Streamlit app
 st.title('Age Prediction Model')
